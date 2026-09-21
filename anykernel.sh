@@ -12,14 +12,13 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=deen
-device.name2=deen_sprout
-supported.versions=12.0-12.1
+device.name1=ali
+supported.versions=11.0-12.1
 '; } # end properties
 
 # shell variables
 block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=1;
+is_slot_device=auto;
 ramdisk_compression=auto;
 
 ## AnyKernel methods (DO NOT CHANGE)
