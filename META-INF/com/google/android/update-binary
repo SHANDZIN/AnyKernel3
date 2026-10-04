@@ -595,6 +595,6 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
 fi;
 
 ui_print " " " " "Done!";
-ui_print " " " " "Mimir Kernel was succesfully installed";
+ui_print " " " " "DeenRev Kernel was succesfully installed";
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;

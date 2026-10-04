@@ -4,9 +4,9 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Mimir Kernel
-kernel.made=Vhmit
-kernel.version=3.18.140
+kernel.string=DeenRev Kernel
+kernel.made=SHAND
+kernel.version=4.19.325
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -14,7 +14,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=deen
 device.name2=deen_sprout
-supported.versions=11.0-12.1
+supported.versions=11.0-16.0
 '; } # end properties
 
 # shell variables
